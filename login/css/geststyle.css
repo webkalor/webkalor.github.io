@@ -1,0 +1,545 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	outline: none!important;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+
+@media (max-width: 968px){
+	.details{
+		flex-direction: column;
+	}
+	.contact .formcont form .champs textarea{
+		height: 120px!important;
+	}
+	#envoyer,#restaurer{
+		width: 100px!important;
+	}
+	.contact{
+		flex-direction: column;
+	}
+	.contact .formcont form{
+		display: block!important;
+		margin-top: 0px!important;
+	}
+	.contact .formcont form button{
+		margin-left: 15px!important;
+	}
+	.menu{
+		flex-direction: column;
+	}
+	footer .icones i{
+		font-size: 20px;
+	}
+	.container .contenu img{
+		width: 100%!important;
+	}
+	#menu{
+		opacity: 1!important;
+		position: absolute;
+		left: 90%;
+		top: 15%;
+		cursor: pointer;
+	}
+	#bars:checked+nav{
+		transform: translate(0);
+		transition: .7s;
+	}
+	.menu nav ul li{
+		display:block!important;
+		margin-bottom: 10px;
+		text-align:center;
+		margin-top: 10px;	
+	}
+	.menu nav{
+		position: absolute;
+		top: 50px;
+		background: #fff;
+		left: 0;
+		width: 100%;
+		box-shadow: 3px 3px 3px grey;
+		text-align: left;
+		height: 35vh;
+		z-index: 100;
+		transform: translate(-100%);
+	}
+	nav ul{
+		margin-top: -70px;
+		margin-left: 135px;
+	}
+	.menu nav .compte{
+		margin-top: 50px;
+		margin-left: -85px;
+	}
+	.menu nav .compte a{
+		display: block;
+		margin-top: 7px;
+	}
+	.container .contenu img{
+		filter: invert(0.1);
+		width: 100%;
+		border-radius: 5px;
+	}
+	.stat div{
+		margin-bottom: 15px;
+	}
+}
+.anim{
+	position: absolute;
+	background:linear-gradient(to left, violet, red, skyblue);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+/*Debut page d'acceuil*/
+
+.menu{
+	background-color: #fff;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	height: 50px;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	z-index: 200;
+}
+.menu .logo{
+	display: flex;
+	align-items: center;
+}
+.menu .logo img{
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	margin-top: -5px;
+}
+.menu .logo h4{
+	font-weight: bold;
+	color: skyblue;
+	text-transform: uppercase;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+.menu nav{
+	display:flex;
+	align-items: center;
+	transition: .5s;
+}
+.menu nav ul li{
+	margin-top: 10px;
+	display: inline-block;
+}
+.menu nav ul li a{
+	font-size: 12px;
+	font-weight: bold;
+	color: skyblue;
+	padding: 5px;
+	text-decoration: none;
+	transition: .5s;
+	text-transform: uppercase;
+}
+.menu nav ul li a:hover{
+	text-decoration: none;
+	color: grey;
+	transition: .8s;
+}
+.menu nav .compte a button{
+	width: 100px;
+	padding: auto;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 2px;
+	border:1px solid skyblue;
+}
+.inscription{
+	color: skyblue;
+	background-color: #fff;
+}
+.connexion{
+	color: #fff;
+	background-color: skyblue;
+}
+#menu{
+	color: skyblue;
+	font-weight: bold;
+	font-size: 22px;
+	margin-left: 20px;
+	opacity: 0;
+}
+#bars{
+	display: none;
+}
+.imgacceuil{
+	width: 100%;
+	height: 450px;
+	margin-top: 50px;
+}
+.imgacceuil img{
+	width: 100%;
+	height: 100%;
+	filter:invert(0.2);
+}
+.msgacceuil{
+	position: absolute;
+	top: 30%;
+}
+.msgacceuil h1{
+	color: #fff;
+	font-weight: bold;
+	font-size: 45px;
+}
+.msgacceuil h2{
+	color: #fff;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.msgacceuil h1 span{
+	color: skyblue;
+}
+.msgacceuil a button{
+	width: 240px;
+	height: 35px;
+	border-radius: 5px;
+	background-color: skyblue;
+	font-weight: bold;
+	border:none;
+	font-size: 13px;
+	color: #fff;
+	transition: .4s;
+	font-weight: 900;
+}
+.msgacceuil a button:hover{
+	width: 290px;
+	transition: .5s;
+}
+.content{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.content .details{
+	display: flex;
+	margin-top: 30px;
+}
+.content .details div{
+	padding: 40px;
+	margin-left: 10px;
+	background-color: skyblue;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	transition: .6s;
+}
+.content .details div:hover{
+	background-color: grey;
+	transition: .3s;
+}
+.content .details div h6{
+	font-weight: bold;
+	color: #fff;
+}
+.content .details div i{
+	color: #fff;
+}
+.content h2{
+	font-weight: bold;
+	color: skyblue;
+}
+.content p span{
+	font-weight: bold;
+}
+.content p{
+	text-align: justify;
+}
+
+/*Fin page d'acceuil*/
+
+/*Debut page nous_connaitre*/
+
+.image{
+	width: 100%;
+	height: 370px;
+}
+.image img{
+	width: 100%;
+	height: 100%;
+	filter: invert(0.2);
+}
+.titre{
+	position: absolute;
+	top: 15%;
+}
+.titre h1{
+	color: #fff;
+	font-weight: bold;
+}
+.container{
+	margin-top: -55px;
+	margin-bottom: 20px;
+}
+.container .contenu{
+	background-color: #fff;
+	border-radius: 5px;
+}
+.container .contenu h1,h3{
+	color: skyblue;
+	font-weight: bold;
+}
+.container .contenu p{
+	text-align: justify;
+	margin-bottom: 15px;
+}
+.container .contenu img{
+	height: 350px;
+	width: 50%;
+}
+.container .contenu ul li{
+	list-style: initial;
+}
+.stat{
+	padding: 20px;
+	border-radius: 5px;
+	background-color: rgba(217,217,217, 0.1);
+}
+.stat div{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	background-color: skyblue;
+	border-radius: 5px;
+	padding: 10px;
+	height: 150px;
+}
+footer{
+	width: 100%;
+	background-color: #181621;
+	clear: both;
+	padding: 20px 30px 0 30px;
+}
+footer .icones{
+	margin-bottom: 30px;
+}
+footer span{
+	background-color: lightgrey;
+}
+footer div img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+footer div h5{
+	color: #fff;
+	font-weight: bold;
+}
+footer .icones p{
+	font-weight: bold;
+	color: lightgrey;
+}
+footer .icones i{
+	color: skyblue;
+	font-size: 22px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+footer .copyright p{
+	font-weight: bold;
+	margin-bottom: 0;
+	color: #ccc;
+}
+footer div ul li a{
+	color: #fff;
+}
+footer div ul li a:hover{
+	color: #fff;
+}
+
+/*Fin page nous_connaitre*/
+
+/*debut Connexion et inscription*/
+
+.forminscon form{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: center;
+	height: 100vh;
+	background-size: cover;
+	background-color: rgba(217,217,217, 0.3);
+}
+.forminscon form .formulaire{
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	width: 370px;
+}
+.forminscon form .formulaire h1{
+	font-weight: bold;
+}
+.forminscon form .formulaire .liens{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.forminscon form .formulaire .liens .icone{
+	border-radius: 50%;
+	border:2px solid skyblue;
+	padding: 10px;
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.forminscon form .formulaire a{
+	color: skyblue;
+	margin-bottom: 20px;
+}
+.forminscon form .formulaire .liens .icone i{
+	font-size: 20px;
+}
+.forminscon form .formulaire .champs input{
+	border-radius: 0px;
+	padding: 20px;
+	border:1px solid rgba(217,217,217, 0.4); 
+	background-color: rgba(217,217,217, 0.4);
+}
+.forminscon form .formulaire .champs span{
+	margin-left: -150px;
+}
+.forminscon form .formulaire button{
+	background-color: skyblue;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 5px;
+	border:none;
+	width: 100%;
+	height: 40px;
+	transition: .3s;
+	margin-bottom: 30px;
+}
+.forminscon form .formulaire button:hover{
+	transform: translateY(-4px);
+	transition: .5s;
+	box-shadow: 3px 3px 5px lightgrey;
+}
+/*fin connexion et inscription*/
+
+/*Debut page contact*/
+
+.contact{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+.contact .noscontact{
+	margin-bottom: 10px;
+}
+.contact .noscontact h1{
+	margin-left: -15px;
+	font-size: 43px;
+}
+.contact .noscontact .nosadresses{
+	margin-bottom: 10px;
+}
+.contact .noscontact .nosadresses p i{
+	color: #000;
+	margin-right: 0;
+	font-size: 16px;
+}
+.contact .noscontact .nosadresses i{
+	font-size: 25px;
+	color: teal;
+	margin-right: 5px;
+}
+.contact .noscontact img{
+	width: 100%;
+}
+.contact .formcont form{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 60px;
+	height: 75vh;
+}
+.contact .formcont form .champs input{
+	border-radius: 0;
+	background-color: lightgrey;
+	border:1px solid lightgrey;
+}
+.contact .formcont form .champs textarea{
+	height: 200px;
+	border-radius: 0;
+	background-color: lightgrey;
+	border:1px solid lightgrey;
+
+}
+.contact .formcont form button{
+	color: white;
+	border:none;
+	font-weight: bold;
+	height: 40px;
+	width: 150px;
+	margin-left: -310px;
+	background-color: skyblue;
+	transition: 0.3s;
+}
+.contact .formcont form button:hover{
+	transform: translateY(-4px);
+	transition: .5s;
+	box-shadow: 3px 3px 5px lightgrey;
+}
+
+/*Fin page contact*/
+
+/*Debut page phare*/
+
+#comment{
+	height: 200px;
+}
+.formeng{
+	padding: 60px 20px 0 20px;
+	width: 100%;
+}
+.formeng form .engager{
+	border:none;
+	background-color: #fff;
+}
+.formeng form .engager h1{
+	text-transform: uppercase;
+	color: skyblue;
+}
+.formeng form .engager legend{
+	text-transform: uppercase;
+}
+.formeng form .engager .champs #lnais,#dnais{
+	height: 42px;
+}
+#envoyer,#restaurer{
+	width: 150px;
+	border:none;
+	border-radius: 5px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	transition: .1s;
+}
+#envoyer:hover,#restaurer:hover{
+	transform: translateY(-2px);
+	box-shadow: 3px 3px 3px lightgrey;
+	transition: .3s;
+}
+.erreurnom,.erreurtel,.erreurmail,.erreurlieu,.erreuradr,.erreurmdpass,.erreurpseudo{
+	color: red;
+	font-size: 11px;
+	position: absolute;
+}

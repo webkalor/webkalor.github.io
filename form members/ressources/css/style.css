@@ -1,0 +1,46 @@
+.bloc-princ{
+			width: 360px;
+			margin: 50px auto;
+		}
+		header{
+			color: white;
+			font-size: 30px;
+			text-align: center;
+			font-weight: bolder;
+			background: blue;
+		}
+		h3{
+			padding-top: 15px;
+			text-align: center;
+			font-weight: bolder;
+		}
+		div{
+			margin-bottom: 10px;
+		}
+		.form-group.succes input{
+			border-color: #5543f1;
+		}
+		.form-group.error input{
+			border-color: #ff3860;
+		}
+		.form-group .error{
+			color: #ff3860;
+			font-size: 10px;
+			height: 13px;
+		}
+		.form-group input{
+			display: flex;
+			flex-direction: column;
+			border-radius: 4px;
+			display: block;
+			font-size: 12px;
+			width: 100%;
+		}
+
+		.btn{
+			border-radius: 25px;
+			font-size: 15px;
+			font-weight: bold;
+			background-color: blue;
+			width: 260px;
+		}

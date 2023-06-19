@@ -1,0 +1,239 @@
+*{
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	font-family: helvetica!important;
+	padding: 0;
+	margin: 0;
+}
+.active{
+	font-weight: bold;
+	opacity: 1!important;
+}
+#cercle, #cercle1, #cercle2, #cercle3, #cercle4, #cercle5, #cercle6, #cercle7, #cercle8{
+	position: absolute;
+}
+#cercle{
+	top: 15px;
+	left: 15%;
+}
+#cercle1, #cercle2, #cercle3, #cercle4, #cercle5, #cercle6, #cercle7, #cercle8{
+	width: 8px;
+}
+#cercle1{
+	top: 50%;
+	left: 40%;
+}
+#cercle2{
+	top: 30%;
+	left: 10%;
+}
+#cercle3{
+	top: 95%;
+	left: 2%;
+}
+#cercle4{
+	top: 18%;
+	right: 7%;
+}
+#cercle5{
+	top: 94%;
+	right: 15%;
+}
+#cercle6{
+	top: 30%;
+	left: 51%;
+}
+#cercle7{
+	top: 1%;
+	left: 1%;
+	z-index: 10;
+}
+#cercle8{
+	top: 9%;
+	left: 45%;
+	z-index: 10;
+}
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 80px;
+	background-color: rgba(255, 255, 255);
+/*background: linear-gradient(to left, #92E1E2, #0D4671);*/
+	position: fixed;
+	z-index: 5;
+	border-bottom: 1px solid rgba(217, 217, 217, 0.5);
+}
+.menu h2{
+	color: #334756;
+	border-right :3px solid #334756;
+	padding: 0 30px 0 0;
+	margin-top: 5px;
+}
+.menu nav{
+	margin-top: 5px;
+}
+.menu nav ul li{
+	display: inline-flex;
+}
+.menu nav ul li a{
+	color: #334756;
+	padding: 5px;
+	font-size: 18px;
+	opacity: 0.8;
+	transition: 0.5s;
+}
+.menu nav ul li a:hover{
+	text-decoration: none;
+	opacity: 1;
+}
+.menu .formation button{
+	width: 150px;
+	height: 45px;
+	padding: 5px;
+	color: #fff; 
+	background-color: #334756;
+	border: 2px solid #334756;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.menu .formation button i{
+	font-size: 12px;
+}
+.menu #contact{
+	padding: 8px 20px 8px 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	background-color: #940E86;
+	border:none;
+	height: 100%;
+	width: 150px;
+	transition: 0.3s;
+}
+.menu #contact:hover{
+	opacity: 0.9;
+	transition: 0.3s;
+}
+.acceuil{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 5px 5px 5px 5px;
+	height: 550px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+.acceuil h1, .acceuil h2{
+	color: #334756;
+	font-weight: 50;
+}
+.acceuil h1{
+	font-size: 45px;
+}
+.acceuil h2{
+	font-size: 30px;
+}
+.acceuil .msg_acc{
+	padding: 0;
+}
+.acceuil .msg_acc button{
+	background: #940E86;
+	color: #fff;
+	border-radius: 50px;
+	height: 60px;
+	font-size: 17px;
+	font-weight: bold;
+	width: 60%;
+	border: 2px solid #fff;
+	transition: .4s;
+	border: 2px solid #940E86;
+}
+.acceuil .msg_acc button:hover{
+	border: 2px solid #940E86;
+	transition: .4s;
+	background: #fff;
+	color: #940E86;
+}
+.apropos{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	height: 500px;
+	margin-bottom: 100px;
+}
+.apropos .apropo{
+	background-color: #940E86;
+	height: 100%;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.apropos .apropo h1, .apropos .apropo h4{
+	color: #fff;
+	font-weight: 50;
+}
+.apropos .apropo button{
+	border: 2px solid #940E86;
+	transition: .4s;
+	background: #fff;
+	color: #940E86;
+	border-radius: 50px;
+	height: 60px;
+	font-size: 18px;
+	font-weight: bold;
+	width: 50%;
+}
+.nos_forms{
+/*	background-color: rgba(217, 217, 217, 0.1);*/
+	width: 100%;
+	padding: 50px 0 50px 0;
+}
+.nos_forms .form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.nos_forms .form .algo h2{
+	color: #940E86;
+	font-weight: bold;
+}
+.nos_forms .form .algo p{
+	font-size: 28px;
+	color: #334756;
+}
+.nos_forms .form img{
+	/*height: 50%;
+	width: 50%;*/
+	border-radius: 50%;
+}
+#next{
+	color: #334756;
+	border: none;
+	background-color: transparent;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 18px;
+}
+#prec{
+	color: gray;
+	border: none;
+	background-color: transparent;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+#next i, #prec i{
+	font-size: 13px;
+}
+#barre{
+	color: #334756;
+	font-size: 22px;
+}
