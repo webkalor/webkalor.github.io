@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="50px" viewBox="0 0 80 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Phone hover</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon-/-Phone-hover" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone_icn" transform="translate(30.000000, 16.000000)">
+            <path d="M20,30.7270536 L20,2.27294643 C20,1.01782541 18.915251,0 17.5765213,0 L2.42347866,0 C1.08571844,0 0,1.01782541 0,2.27294643 L0,30.7270536 C0,31.9821746 1.08571844,33 2.42347866,33 L17.5765213,33 C18.915251,33 20,31.9821746 20,30.7270536 Z" id="Fille"></path>
+            <rect id="Rectangle-2" fill="#71B6FF" x="0" y="1" width="20" height="6"></rect>
+            <path d="M20,30.7270536 L20,2.27294643 C20,1.01782541 18.915251,0 17.5765213,0 L2.42347866,0 C1.08571844,0 0,1.01782541 0,2.27294643 L0,30.7270536 C0,31.9821746 1.08571844,33 2.42347866,33 L17.5765213,33 C18.915251,33 20,31.9821746 20,30.7270536 Z" id="Stroke-3" stroke="#153454" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+        <rect id="shape" fill="#12FFCD" fill-rule="nonzero" x="33" y="41" width="14" height="5" rx="2"></rect>
+    </g>
+</svg>

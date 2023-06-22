@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="50" viewBox="0 0 80 50">
+  <g fill="none" fill-rule="evenodd" transform="translate(19 17)">
+    <rect width="39" height="3" x="2" y="27" fill="#71B6FF"/>
+    <path stroke="#153454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2,15 L40,15 L40,29 C40,30.1045695 39.1045695,31 38,31 L4,31 C2.8954305,31 2,30.1045695 2,29 L2,15 Z"/>
+    <path fill="#FFF" stroke="#153454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.5,5 L36.5,5 C39.5375661,5 42,7.46243388 42,10.5 L42,15 C42,15.5522847 41.5522847,16 41,16 L1,16 C0.44771525,16 6.76353751e-17,15.5522847 0,15 L0,10.5 C-3.71994563e-16,7.46243388 2.46243388,5 5.5,5 Z"/>
+    <path stroke="#153454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15,0 L27,0 C28.1045695,-2.02906125e-16 29,0.8954305 29,2 L29,5 L13,5 L13,2 C13,0.8954305 13.8954305,2.02906125e-16 15,0 Z"/>
+    <rect width="5" height="9" x="29" y="11" fill="#00FFD6" stroke="#153454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="1"/>
+    <rect width="5" height="9" x="8" y="11" fill="#00FFD6" stroke="#153454" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" rx="1"/>
+  </g>
+</svg>
