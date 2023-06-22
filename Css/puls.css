@@ -1,0 +1,547 @@
+/* Auteur : Jeffren || 19/06/2023*/
+*{
+    text-decoration: none!important;
+    list-style: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: helvetica!important; */
+    overflow-x: hidden;
+}
+.bookService{
+    position: fixed;
+    z-index: 60;
+    top: 95px;
+    right: 130px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* width: 300px; */
+    display: none;
+    box-shadow : 1px 1px 1px 1px rgba(217, 217, 217, 1)
+}
+.noB{
+    border: none!important;
+}
+.bookService .a_service{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(217, 217, 217, 0.5);
+}
+.bookService .a_service img{
+    width: 40px;
+    margin-left: 15px;
+    margin-top: -5px;
+}
+.bookService .a_service a{
+    color: #000;
+    transition: .3s;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.bookService .a_service a:hover{
+    transition: .3s;
+    color: royalblue;
+}
+header{
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color :#fff; */
+    /* box-shadow :1px 1px 1px 1px rgba(217, 217, 217, 1); */
+    transition: 1s;
+}
+.Timg{
+    width: 130px!important;
+    margin-left: 25%;
+}
+header .menu-nav{
+    display: flex;
+    align-items: center;
+}
+header .menu-nav nav{
+    margin-top: 15px;
+}
+header .menu-nav nav ul li{
+    display: inline-block;
+}
+header .menu-nav nav ul li a{
+    color: #000;
+    padding: 15px;
+}
+header .login button{
+    color: royalblue;
+    padding: 15px 22px 15px 22px;
+    border: 1px solid royalblue;
+    background-color: transparent;
+    opacity: 0;
+    transition: 0.5s;
+}
+header .login a{
+    font-weight: bold;
+    color: #000;
+    margin-left: 20px;
+}
+.accueil{
+    width: 100%!important;
+    height: 700px;
+    position: relative;
+    background-image: url('../Images/taches-menageres.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.accueil h1{
+    font-weight: 605;
+    position: absolute;
+    left: 8%;
+    top: 17%;
+    font-size: 58px;
+    color: #fff;
+}
+.accueil button{
+    position: absolute;
+    left: 8%;
+    top: 40%;
+    background-color: royalblue;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    width: 280px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 1px 1px 10px rgba(217, 217, 217, 1);
+}
+.spons{
+    background-color: rgba(217, 217, 217, 0.5);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spons img{
+    padding: 20px;
+}
+.anonce{
+    width: 100%;
+    padding: 40px 0 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.anonce div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+}
+.anonce div p{
+    color: gray;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.container{
+    padding: 0;
+}
+.container .learn{
+    background-image: url('https://d7gh5vrfihrl.cloudfront.net/website/homepage/whole-home.png');
+    border-radius: 25px;
+    padding: 100px 0 150px 40px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    background-position: center;
+    box-shadow: 4px 4px 4px 1px rgba(217, 217, 217, 1);
+    margin-bottom: 150px;
+}
+.container .learn section{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.container .learn section h3, .container .learn section h5{
+    font-weight: 600;
+}
+.container #learn{
+    border: none;
+    height: 60px;
+    background-color: #fff;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.container .homeServiceBook{
+    background-color: royalblue;
+    border-radius: 25px;
+    padding: 40px 30px;
+    position: relative;
+    margin-bottom: 150px;
+}
+.container .homeServiceBook section{
+    color: #fff;
+}
+.container .homeServiceBook section h3, .container .homeServiceBook section h5{
+    font-weight: 600;
+}
+.container .homeServiceBook .search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.container .homeServiceBook .search input{
+    border: none;
+    width: 90%;
+    height: 90%;
+    outline: none;
+    font-size: 20px;
+}
+.container .homeServiceBook .search input:focus{
+    border: none;
+}
+.container .homeServiceBook .search img{
+    cursor: pointer;
+    font-size: 20px;
+}
+.container .homeServiceBook section .popular{
+    display: flex;
+    margin-bottom: 120px;
+}
+.container .homeServiceBook section .popular h5{
+    margin-right: 15px;
+}
+.container .homeServiceBook section .popular button{
+    margin-left: 5px;
+    border-radius: 50px;
+    border: none;
+    font-size: 19px;
+    font-weight: 600;
+    background-color: aliceblue;
+}
+.container .homeServiceBook #jef{
+    position: absolute;
+    right: 20px;
+    top: -60px;
+    width: 40%;
+}
+.container .homeServiceBook h5{
+    color: #fff;
+}
+.container .homeServiceBook .services{
+    display: flex;
+    overflow-x: hidden;
+    padding-top: 50px;
+    /* width: 100%; */
+    margin-bottom: 50px;
+    /* transform: translate(200px); */
+}
+.container .homeServiceBook .services .service{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 25px;
+    padding: 20px 10px;
+    height: 400px;
+    margin-right: 15px;
+    /* transform: translate(200px); */
+}
+.container .homeServiceBook .services .service .image{
+    /* margin-top: -55px; */
+    margin-top: -55px;
+    width: 250px;
+    /* height: 110px; */
+    height: 110px;
+}
+.container .homeServiceBook .services .service .image img{
+    width: 100%;
+    height: 100%;
+}
+.container .homeServiceBook .services .service h4{
+    font-weight: 600;
+    text-align: center;
+}
+.container .homeServiceBook .services .service .liens button{
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: aliceblue;
+}
+.container .homeServiceBook .services .service a button{
+    color: #fff;
+    background-color: royalblue;
+    font-weight: 600;
+    border: none;
+    border-radius: 15px;
+    font-size: 18px;
+    padding: 10px 22px;
+    /* box-shadow: 5px 5px 5px 1px skyblue; */
+}
+.container .homeServiceBook .slider{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.activSlide{
+    background-color: skyblue!important;
+}
+.container .homeServiceBook .slider .slide1, .container .homeServiceBook .slider .slide2, .container .homeServiceBook .slider .slide3, .container .homeServiceBook .slider .slide4, .container .homeServiceBook .slider .slide5, .container .homeServiceBook .slider .slide6, .container .homeServiceBook .slider .slide7{
+    border-radius: 50%;
+    margin-left: 10px;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(217, 217, 217, 1);
+}
+.container .CmtsaMarche{
+    background-color: skyblue;
+    position: relative;
+    border-radius: 25px;
+    padding: 40px 30px 40px 30px;
+    margin-bottom: 100Px;
+}
+.container .CmtsaMarche h1{
+    color: #fff;
+}
+.container .CmtsaMarche section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+.container .CmtsaMarche section .text-center{
+    color: #fff;
+    font-weight: 600;
+}
+.container .CmtsaMarche section .text-center p{
+    font-size: 17px;
+}
+.container .CmtsaMarche .sec-1{
+    margin-top: -150px;
+    margin-left: 50%;
+}
+.container .CmtsaMarche .sec-1 #img_1{
+    margin-top: -50px;
+    /* width: 250px; */
+}
+.container .CmtsaMarche .sec-2{
+    margin-left: 0;
+    margin-bottom: 70px;
+}
+.container .CmtsaMarche .sec-2 #img_2{
+    margin-left: -30px;
+    margin-top: -300px;
+    width: 250px;
+    /* position: absolute; */
+}
+.container .CmtsaMarche .sec-3{
+    margin-left: 20%;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.container .CmtsaMarche .sec-3 #img_3{
+    width: 450px;
+}
+.container #serv{
+    border: none;
+    height: 60px;
+    background-color: #fff;
+    color: royalblue;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 15px;
+    /* transform: translate(50%); */
+    margin-left: 32%;
+}
+.container .proprietaires{
+    margin-bottom: 150px;
+    border-radius: 25px;
+    position: relative;
+}
+.container .proprietaires #hand{
+    position: absolute;
+    top: -62px;
+    right: 0;
+    z-index: 10;
+    width: 200px;
+}
+.container .proprietaires section{
+    background-color: skyblue;
+    width: 100%;
+    padding: 30px 50px;
+    height: 250px;
+    border-radius: 25px;
+}
+.container .proprietaires section h1{
+    color: #fff;
+}
+.container .proprietaires .proprios{
+    display: flex;
+    margin-top: -120px;
+    height: 300px;
+    overflow: hidden;
+}
+.container .proprietaires .proprios .proprio{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    height: 100%;
+    border: 1px solid grey;
+    width: 500px;
+}
+.container .proprietaires .proprios .proprio p, .container .proprietaires .proprios .proprio label{
+    color: grey;
+    font-weight: 700;
+}
+#Moone{
+    border-radius: 50%;
+}
+.container .joinPuls{
+    display: flex;
+    background-color: royalblue;
+    border-radius: 25px;
+    /* padding: 20px 40px 20px 40px; */
+    height: 450px;
+    margin-bottom:150px;
+}
+.container .joinPuls #img{
+    height: 500px!important;
+    margin-left: 50px;
+    margin-top: -35px;
+}
+.container .joinPuls section{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+.container .joinPuls section img{
+    width: 130px;
+    height: 40px!important;
+}
+.container .tapis{
+    display: flex;
+    justify-content: space-between;
+    background-color: skyblue;
+    color: #fff;
+    padding: 15px 0 15px 50px;
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 100px;
+}
+.container .tapis img{
+    width: 320px;
+    position: absolute;
+    right: 20px;
+    top: -30px;
+}
+.container .select{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.container .select div{
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 1px rgba(217, 217, 217, 1),4px 4px 4px 1px rgba(217, 217, 217, 1), 4px 4px 4px 1px rgba(217, 217, 217, 1);
+    padding: 15px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .select .selectVille select{
+    border: none;
+    font-weight: bold;
+    color: grey;
+    width: 80%;
+}
+.container .select .selectVille label{
+    color: grey;
+}
+.container .select .selectVille label i{
+    font-size: 13px;
+}
+.container footer{
+    display: flex;
+    margin-bottom: 20px;
+}
+.container footer .legals, .container footer .company, .container footer .ressources, .container footer .partner{
+    display: flex;
+    flex-direction: column;
+}
+.container footer .legals a, .container footer .company a, .container footer .ressources a, .container footer .partner a{
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.container footer .stayConnect section{
+    margin-bottom: 30px;
+}
+.container footer .stayConnect input{
+    padding: 10px 10px 10px 0;
+    border: 1px solid;
+    border-color: transparent transparent black transparent;
+}
+.container footer .stayConnect button{
+    margin-left: 20px;
+    border-radius: none!important;
+}
+.container footer .stayConnect .liens{
+    display: flex;
+    margin-bottom: 35px;
+}
+.container footer .stayConnect .liens a{
+    padding: 7px;
+    background-color: royalblue;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+.container footer .stayConnect .liens a i{
+    color: #fff;
+    /* font-size: 18px; */
+}
+.container footer .stayConnect .liens p a{
+    color: #000!important;
+}
+.container .telechargement{
+    margin-bottom: 20px;
+}
+.container .copy{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.container .copy p{
+    color: grey;
+    font-size: 12px;
+}
