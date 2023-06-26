@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="50px" viewBox="0 0 80 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Smart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon-/-Smart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="smart-home" transform="translate(18.000000, 14.000000)">
+            <path d="M22.1499795,25.2994385 C22.6194948,25.2994385 23,25.6799437 23,26.149459 C23,26.6189743 22.6194948,27 22.1499795,27 C21.6804642,27 21.2994385,26.6189743 21.2994385,26.149459 C21.2994385,25.6799437 21.6804642,25.2994385 22.1499795,25.2994385" id="Fill-8" fill="#595959"></path>
+            <path d="M16,21 C19.3150987,17 24.6849013,17 28,21" id="Stroke-12" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.6123047,24.0578003 C20.5001142,21.7799683 23.5579913,21.7799683 25.4458008,24.0578003" id="Stroke-12" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M13,18 C17.9711426,12.6666667 26.0288574,12.6666667 31,18" id="Stroke-14" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Stroke-2" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="44 14.516129 22.1869211 0 -3.69482223e-13 14.516129"></polyline>
+            <path d="M3,12.6393881 L3,33.1141854 C3,34.1557302 3.85068656,35 4.9001474,35 L39.1002737,35 C40.1497346,35 41,34.1557302 41,33.1141854 L41,12.6393881 L21.9997894,0 L3,12.6393881 Z" id="Stroke-6" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

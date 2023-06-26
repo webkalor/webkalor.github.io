@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="50px" viewBox="0 0 80 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / TV</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon-/-TV" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="tv" transform="translate(19.000000, 19.000000)" stroke="#595959" stroke-width="2">
+            <g id="tv_icn">
+                <path d="M2.10582779,26.2307692 L40.0107279,26.2307692 C41.173566,26.2307692 42.1165557,25.3272201 42.1165557,24.2130178 L42.1165557,2.01775148 C42.1165557,0.903549112 41.173566,0 40.0107279,0 L2.10582779,0 C0.942568517,0 0,0.903549112 0,2.01775148 L0,24.2130178 C0,25.3272201 0.942568517,26.2307692 2.10582779,26.2307692 Z" id="Stroke-3"></path>
+                <path d="M13.7924528,30.2051282 L29.2075472,30.2051282" id="Stroke-5"></path>
+            </g>
+        </g>
+    </g>
+</svg>

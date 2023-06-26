@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="50px" viewBox="0 0 80 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Phone</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icon-/-Phone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone_icn" transform="translate(30.000000, 16.000000)">
+            <path d="M20,30.7270536 L20,2.27294643 C20,1.01782541 18.915251,0 17.5765213,0 L2.42347866,0 C1.08571844,0 0,1.01782541 0,2.27294643 L0,30.7270536 C0,31.9821746 1.08571844,33 2.42347866,33 L17.5765213,33 C18.915251,33 20,31.9821746 20,30.7270536 Z" id="Fille"></path>
+            <path d="M20,30.7270536 L20,2.27294643 C20,1.01782541 18.915251,0 17.5765213,0 L2.42347866,0 C1.08571844,0 0,1.01782541 0,2.27294643 L0,30.7270536 C0,31.9821746 1.08571844,33 2.42347866,33 L17.5765213,33 C18.915251,33 20,31.9821746 20,30.7270536 Z" id="Stroke-3" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.90909091,4.01351351 L14.0909091,4.01351351" id="Stroke-5" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.90909091,28.9864865 L14.0909091,28.9864865" id="Stroke-7" stroke="#595959" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
